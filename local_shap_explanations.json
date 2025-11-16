@@ -1,0 +1,146 @@
+{
+  "true_positive": {
+    "index": 10,
+    "probability": 0.638793831012902,
+    "true_label": 1,
+    "pred_label": 1,
+    "top_contributions": [
+      {
+        "feature": "num__debt_to_income",
+        "shap_value": 3.340089864075996,
+        "value": 8.231590590389207
+      },
+      {
+        "feature": "num__employment_length_years",
+        "shap_value": -1.3473128574252027,
+        "value": 0.987196146387352
+      },
+      {
+        "feature": "num__age",
+        "shap_value": -0.7677458304150361,
+        "value": -1.6535107457508333
+      },
+      {
+        "feature": "num__num_open_accounts",
+        "shap_value": -0.6938848000940941,
+        "value": 1.7385174556898655
+      },
+      {
+        "feature": "num__loan_term_months",
+        "shap_value": -0.3975578367087932,
+        "value": -0.4248493609828742
+      },
+      {
+        "feature": "num__loan_amount",
+        "shap_value": -0.3682811868511944,
+        "value": 1.3846298049893278
+      },
+      {
+        "feature": "num__income",
+        "shap_value": -0.139074241869472,
+        "value": -2.1216119292470124
+      },
+      {
+        "feature": "cat__home_ownership_RENT",
+        "shap_value": -0.0892264009495854,
+        "value": 0.0
+      }
+    ]
+  },
+  "false_positive": {
+    "index": 149,
+    "probability": 0.9048969002010636,
+    "true_label": 0,
+    "pred_label": 1,
+    "top_contributions": [
+      {
+        "feature": "num__debt_to_income",
+        "shap_value": 4.191823993210504,
+        "value": 10.68712582004611
+      },
+      {
+        "feature": "num__age",
+        "shap_value": -0.7553633723299166,
+        "value": 1.5207122435725078
+      },
+      {
+        "feature": "num__employment_length_years",
+        "shap_value": -0.6960852037552228,
+        "value": 0.29279243257863713
+      },
+      {
+        "feature": "num__num_open_accounts",
+        "shap_value": -0.6013864960991688,
+        "value": 1.7385174556898655
+      },
+      {
+        "feature": "num__credit_score",
+        "shap_value": -0.40649762425700187,
+        "value": -0.9950683832587515
+      },
+      {
+        "feature": "num__loan_term_months",
+        "shap_value": -0.31494588120662553,
+        "value": -0.4248493609828742
+      },
+      {
+        "feature": "num__loan_amount",
+        "shap_value": -0.30145895495529185,
+        "value": 2.2065017323802563
+      },
+      {
+        "feature": "num__income",
+        "shap_value": 0.2879528443602811,
+        "value": -2.1216119292470124
+      }
+    ]
+  },
+  "false_negative": {
+    "index": 1,
+    "probability": 0.18564722911080064,
+    "true_label": 1,
+    "pred_label": 0,
+    "top_contributions": [
+      {
+        "feature": "num__employment_length_years",
+        "shap_value": -1.3450782721005305,
+        "value": -0.05440942432572028
+      },
+      {
+        "feature": "num__num_open_accounts",
+        "shap_value": -0.8748178938915702,
+        "value": 0.5778373408982755
+      },
+      {
+        "feature": "num__loan_term_months",
+        "shap_value": -0.465663127484998,
+        "value": -0.4248493609828742
+      },
+      {
+        "feature": "num__debt_to_income",
+        "shap_value": 0.20968017182492418,
+        "value": 0.07662885400233255
+      },
+      {
+        "feature": "num__income",
+        "shap_value": 0.13750234286820673,
+        "value": -0.4635470276078722
+      },
+      {
+        "feature": "cat__home_ownership_OWN",
+        "shap_value": -0.09480015970685401,
+        "value": 0.0
+      },
+      {
+        "feature": "cat__home_ownership_MORTGAGE",
+        "shap_value": -0.09103038203749245,
+        "value": 0.0
+      },
+      {
+        "feature": "num__loan_amount",
+        "shap_value": 0.07250435952866677,
+        "value": 0.2815911655962398
+      }
+    ]
+  }
+}

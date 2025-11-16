@@ -1,0 +1,3 @@
+1) Flag applicants with CreditScore < 600 for manual review — SHAP shows this is the strongest risk driver.
+2) Limit LoanAmount-to-Income ratios above 50% — SHAP reveals high loan burden increases default risk.
+3) Prioritize stable employment history — SHAP shows short or unstable employment contributes to risk.
